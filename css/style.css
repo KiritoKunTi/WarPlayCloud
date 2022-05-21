@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Aire Exterior';
+    src: url('../fonts/AireExterior.woff2') format('woff2'),
+        url('../fonts/AireExterior.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pulsar - Original';
+    src: url('../fonts/PulsarOriginalRegular.woff2') format('woff2'),
+        url('../fonts/PulsarOriginalRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Aire Exterior';
+}
