@@ -17,5 +17,56 @@
 }
 
 body {
-    font-family: 'Aire Exterior';
+    font-family: 'Roboto', sans-serif;
+}
+.section-outer {
+}
+.section-inner {
+    width: 1280px;
+    height: 123px;
+    margin: 0 auto;
+}
+.section-header {
+    background-color: #141C24;
+    color: white;
+}
+.section-header .section-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-header-logo {
+    width: 189px;
+}
+.section-header-logo-wrapper {
+}
+.section-header-menu {
+}
+.section-header-menu-wrapper {
+    display: flex;
+}
+.menu-item {
+    margin-right: 46px;
+    font-weight: 300;
+    font-size: 16;
+    line-height: 28.8px;
+    position: relative;
+
+    cursor: pointer;
+}
+.menu-item:hover {
+    font-weight: 400;
+    letter-spacing: -.19px;
+}
+.menu-item::before {
+    content: '';
+    height: 1.5px;
+    width: 0;
+    position: absolute;
+    background-color: #00c5ff;
+    bottom: 0;
+    transition: .3s;
+}
+.menu-item:hover::before {
+    width: 100%;
 }
