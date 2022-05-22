@@ -20,20 +20,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .section-outer {
+    background: #141C24;
 }
 .section-inner {
-    width: 1280px;
-    height: 123px;
-    margin: 0 auto;
+
 }
+
+/* header */
 .section-header {
     background-color: #141C24;
     color: white;
+    z-index: 20;
+    position: relative;
 }
 .section-header .section-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    width: 1280px;
+    height: 123px;
+    margin: 0 auto;
+    z-index: 10;
 }
 .section-header-logo {
     width: 189px;
@@ -47,26 +55,117 @@ body {
 }
 .menu-item {
     margin-right: 46px;
-    font-weight: 300;
-    font-size: 16;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 28.8px;
     position: relative;
-
+    color: rgba(255,255,255, 0.7);
     cursor: pointer;
+    transition: color .2s linear;
 }
 .menu-item:hover {
-    font-weight: 400;
-    letter-spacing: -.19px;
+    color: white;
 }
-.menu-item::before {
+.menu-item::after {
     content: '';
     height: 1.5px;
     width: 0;
     position: absolute;
     background-color: #00c5ff;
+    left: 0;
     bottom: 0;
     transition: .3s;
 }
-.menu-item:hover::before {
+.menu-item:hover::after {
     width: 100%;
 }
+/* / header */
+
+
+/* main */
+.section-main {
+    margin-top: -90px;
+    position: relative;
+    z-index: 2;
+}
+.section-main .section-inner {
+    width: 1327px;
+    height: 100vh;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: right;
+    overflow: hidden;
+    border: 0.5px solid #57D6FF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 10px rgba(87, 214, 255, .2);
+    z-index: 2;
+    position: relative;
+}
+.slideImages {
+    object-fit: cover;
+    object-position: center;
+}
+.image {
+    width: 100%;
+    display: none;
+}
+.image:first-child {
+    display: block;
+}
+.slide-content {
+    text-align: center;
+}
+.slide-content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.slide-content-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    line-height: 18.75px;
+}
+.slide-content-title {
+    font-family: 'Aire Exterior';
+    font-size: 48px;
+    color: white;
+    line-height: 48px;
+}
+.slide-content-button {
+}
+.upgrade-btn {
+    font-size: 24px;
+    color: black;
+    font-family: "Aire Exterior";
+    line-height: 24px;
+    padding: 19px 89px;
+    text-transform: uppercase;
+    margin-top: 97px;
+    transition: transform .3s linear;
+
+	clip-path:
+        polygon(0 0, calc(100% - 23px) 0, 100% 23px, 100% 100%,
+        calc(100% - 20px) 100%, 0 100%, 0 calc(100% - 20px), 0 0);
+}
+.upgrade-btn:where(:hover, :focus) {
+    transform: scale(1.05);
+}
+.v-line {
+    width: 1px;
+    z-index: 30;
+    background-color: white;
+    position: absolute;
+}
+.before-v-line {
+    height: 77px;
+    top: 120px;
+    left: 50%;
+}
+.after-v-line {
+    bottom: -110px;
+    left: 50%;
+    height: 132px;
+}
+/* / main */
