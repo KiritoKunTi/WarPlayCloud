@@ -107,10 +107,15 @@ body {
 }
 .image {
     width: 100%;
-    display: none;
+    /* z-index: 5; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
 }
-.image:first-child {
-    display: block;
+.opacity {
+    opacity: 1;
 }
 .slide-content {
     text-align: center;
