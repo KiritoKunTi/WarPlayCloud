@@ -386,6 +386,7 @@ body {
     padding: 14.4px 123px;
     border-radius: 5px;
     background-color: white;
+    transition: all .1s linear
 }
 
 
@@ -403,8 +404,14 @@ body {
 }
 .select-btn__odd {
     background-color: #00c5ff;
+    border: 1px solid #00c5ff;
     color: #141C24;
 }
+.select-btn__odd:hover {
+    background-color: inherit;
+    color: white;
+}
+
 
 .plans-box__even {
     background-color: #00c5ff;
@@ -420,7 +427,12 @@ body {
 }
 .select-btn__even {
     background-color: #141C24;
+    border: 1px solid #141C24;
     color: white;
+}
+.select-btn__even:hover {
+    background-color: inherit;
+    color: #1F2631;
 }
 
 .section-plans-h-line {

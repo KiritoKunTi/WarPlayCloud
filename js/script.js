@@ -1,6 +1,6 @@
 const slideImages = document.getElementsByClassName('image');
 
-const nextImageDelay = 3000;
+const nextImageDelay = 2000;
 let currentImageCounter = 0;
 
 slideImages[currentImageCounter].classList.add('opacity');
