@@ -442,3 +442,38 @@ body {
     margin: 90px auto 0;
 }
 /* / plans  */
+
+
+/* crossPlatform */
+.section-crossPlatform {
+    position: relative;
+    margin-top: 228px;
+    margin-bottom: 400px;
+}
+.section-crossPlatform .section-inner {
+    width: 1231px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.platform-header {
+    margin-top: 20px;
+}
+.platform-header-title {
+}
+.platform-title {
+    margin-top: 25px;
+}
+.platform-content {
+    margin-top: 90px;
+    width: 480px;
+}
+.crossPlatform-btn {
+    margin-top: 60px;
+}
+
+.platform-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* / crossPlatform */
