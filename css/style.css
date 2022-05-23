@@ -477,3 +477,23 @@ body {
     top: 0;
 }
 /* / crossPlatform */
+
+/* map  */
+.section-map {
+}
+.section-map .section-inner {
+    text-align: center;
+}
+.map-header {
+    justify-content: center;
+}
+.map-header-title {
+}
+.map-title {
+}
+.map-content-img {
+    margin-top: 30px;
+}
+.map-image {
+}
+/* / map  */
