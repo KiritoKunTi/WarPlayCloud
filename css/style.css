@@ -18,9 +18,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #141C24;
 }
 .section-outer {
-    background: #141C24;
+    background-color: #141C24;
 }
 .section-inner {
 
@@ -174,3 +175,258 @@ body {
     height: 132px;
 }
 /* / main */
+
+
+/* how it works */
+.section-server {
+    margin-top: 139px;
+}
+.section-server .section-inner {
+    width: 1327px;
+    margin: 0 auto;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.howItWorks {
+    margin-left: 66.5px;
+}
+.howItWorks-wrapper {
+    width: 480px;
+}
+.howItWorks-header {
+}
+.content-header {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.h-content-line {
+    width: 50px;
+    height: 1px;
+    background-color: #57d6ff;
+}
+.howItWorks-header-title {
+}
+.content-header-title {
+    font-weight: 300;
+    font-size: 16px;
+    color: #57D6FF;
+    line-height: 29px;
+}
+.howItWorks-title {
+}
+.content-title {
+    font-size: 39px;
+    line-height: 39px;
+    color: white;
+    margin-top: 17px;
+    font-family: 'Aire Exterior';
+}
+.howItWorks-content {
+    margin-top: 60px;
+}
+.content-text {
+    font-weight: 300;
+    font-size: 23px;
+    color: #ababab;
+    line-height: 39px;
+}
+.content-server {
+}
+.content-line {
+    width: 271px;
+    height: 1px;
+    background-color: #FFFFFF33;
+    margin: 27px 0;
+}
+.content-platform {
+}
+.howItWorks-btn {
+    margin-top: 74px;
+}
+.download-btn {
+    color: #00c5ff;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    padding-bottom: 6px;
+    cursor: pointer;
+    transition: color .2s linear;
+}
+.download-btn::after {
+    content: '';
+    height: 1.5px;
+    width: 0;
+    position: absolute;
+    background-color: #00c5ff;
+    left: 0;
+    bottom: 0;
+    transition: .3s;
+}
+.download-btn:hover::after {
+    width: 100%;
+}
+/* / how it works */
+
+/* start play  */
+.section-startPlay {
+    margin-top: 87px;
+}
+.section-startPlay .section-inner {
+    text-align: center;
+}
+.startPlay-header {
+    justify-content: center;
+}
+.content-header {
+}
+.h-content-line {
+}
+.howItWorks-header-title {
+}
+.content-header-title {
+}
+.startPlay-title {
+    margin-top: 15px;
+}
+.content-title {
+}
+.startPlay-content {
+    text-align: center;
+    margin: 90px auto;
+}
+.startPlay-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startPlay-flex-item {
+}
+.flex-item-text {
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+    margin-top: 12px;
+}
+.flex-line {
+    width: 73px;
+    height: 1px;
+    background-color: #00c5ff;
+    margin-bottom: 32px;
+}
+.startPlay-btn {
+}
+.download-btn {
+}
+/* / start play  */
+
+
+/* plans  */
+.section-plans {
+    margin-top: 154px;
+}
+.section-plans .section-inner {
+    width: 1235px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plans-header {
+    justify-content: center;
+}
+.plans-header-title {
+}
+
+.plans-title {
+}
+
+.plans-content {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+.plans-box {
+    padding: 42px;
+    width: 400px;
+    height: 543px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: left;
+
+    position: relative;
+}
+.plans-box-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 34px;
+}
+.plans-box-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-top: 15px;
+}
+.plans-box-text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+
+    margin-top: 21px;
+}
+.plans-box-select-btn {
+    position: absolute;
+    bottom: 47px;
+}
+.select-btn {
+    font-size: 24px;
+    line-height: 43px;
+    font-family: 'Aire Exterior';
+    padding: 14.4px 123px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.plans-box__odd {
+    background: #1F2631;
+}
+.plans-box-title__odd {
+    color: white;
+}
+.plans-box-price__odd {
+    color: white;
+}
+.plans-box-text__odd {
+    color: #ABABAB;
+}
+.select-btn__odd {
+    background-color: #00c5ff;
+    color: #141C24;
+}
+
+.plans-box__even {
+    background-color: #00c5ff;
+}
+.plans-box-title__even {
+    color: #141C24;
+}
+.plans-box-price__even {
+    color: #141C24;
+}
+.plans-box-text__even {
+    color: black;
+}
+.select-btn__even {
+    background-color: #141C24;
+    color: white;
+}
+
+.section-plans-h-line {
+    width: 582px;
+    height: 1px;
+    background-color: #00c5ff;
+    margin: 90px auto 0;
+}
+/* / plans  */
