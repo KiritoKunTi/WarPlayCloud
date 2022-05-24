@@ -497,3 +497,58 @@ body {
 .map-image {
 }
 /* / map  */
+
+
+/* footer  */
+.section-footer {
+    background-color: #171717;
+    margin-top: 87px;
+}
+.section-footer .section-inner {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1266px;
+    margin: 0 auto;
+}
+.footer-content-company {
+    display: flex;
+    margin-left: 67px;
+}
+.company-text {
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Pulsar - Original';
+}
+.footer-content-company__text_white {
+    margin-left: 29px;
+    color: #ECECEC;
+}
+.footer-content-company__text_grey {
+    margin-left: 20px;
+    color: #838383;
+}
+.footer-content-company__text_grey p {
+    margin-right: 7px;
+}
+.footer-content-politics {
+    display: flex;
+    gap: 51px;
+}
+.footer-content-politics__text {
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    line-height: 14px;
+    font-family: 'Roboto';
+}
+
+.footer-contact-icons{
+    display: flex;
+    gap: 10px;
+}
+/* / footer  */
