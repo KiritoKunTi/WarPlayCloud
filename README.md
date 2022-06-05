@@ -1,4 +1,5 @@
 # WarPlayCloud
-master html, css
+Mastering html, css, and js.
 
-only desktop: [LIVE DEMO](https://kiritokunti.github.io/kiritokunti.github.io-WarPlayCloud/)
+Only for desktop.
+Go here to see: [LIVE DEMO](https://kiritokunti.github.io/kiritokunti.github.io-WarPlayCloud/)
